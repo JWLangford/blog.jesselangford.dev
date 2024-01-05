@@ -3,7 +3,7 @@ layout: post
 title: Understanding String Literals in TypeScript
 date: 2024-01-05 00:00:00 +0300
 description: Example Description.
-image: assets/img/understanding-string-literals-in-typeScript.png
+image: assets/img/string-literals-in-typescript.png
 tags: [Programming, TypeScript, Web Development, Coding, JavaScript]
 published: true
 ---
