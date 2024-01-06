@@ -2,7 +2,7 @@
 layout: post
 title: Understanding String Literals in TypeScript
 date: 2024-01-05 00:00:00 +0300
-description: Example Description.
+description: I want to go over a feature in TypeScript I use all the time; it's called the string literal types. They are a great alternative to enums if you need to add a simple type to an interface.
 image: assets/img/string-literals-in-typescript.png
 tags: [Programming, TypeScript, Web Development, Coding, JavaScript]
 published: true
