@@ -51,7 +51,7 @@ This is what's really going on when we talk about Hoisting. We can call a functi
 
 I have found Hoisting useful when I want to group functions and variables together. When I write React components, I like to have my variables declared at the top and my function below. To me, it just looks better.
 
-```javascript
+```jsx
 const ConditionalComponent = (props) => {
   const condition1 = condition1Function();
   const condition2 = condition2Function();
@@ -77,7 +77,7 @@ Without hoisting, I would have to declare my functions at the top or mix functio
 
 Here’s the functions first:
 
-```javascript
+```jsx
 const ConditionalComponent = (props) => {
   function condition1Function() {
     // process condition1
@@ -103,7 +103,7 @@ const ConditionalComponent = (props) => {
 
 Mixed:
 
-```javascript
+```jsx
 const ConditionalComponent = (props) => {
   const [name, setName] = useState("");
 
