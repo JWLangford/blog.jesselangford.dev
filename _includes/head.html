@@ -65,7 +65,7 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@{{ site.site-twitter }}" />
   <meta name="twitter:creator" content="@{{ site.social-twitter }}" />
-  {% if page.title %}
+  <!-- {% if page.title %}
   <meta name="twitter:title" content="{{ page.title }}" />
   {% else %}
   <meta name="twitter:title" content="{{ site.title }}" />
@@ -89,7 +89,7 @@
     name="twitter:image"
     content="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.author-img }}"
   />
-  {% endif %}
+  {% endif %} -->
 
   <meta name="description" content="{{ page.description }}" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -114,6 +114,11 @@
   <script
     src="https://kit.fontawesome.com/7bfbd64b5a.js"
     crossorigin="anonymous"
+  ></script>
+  <script
+    type="text/javascript"
+    async
+    src="https://platform.twitter.com/widgets.js"
   ></script>
   <!-- Styles -->
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl
