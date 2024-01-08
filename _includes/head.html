@@ -55,9 +55,9 @@
   />
   {% endif %} {% if page.categories %} {% for category in page.categories
   limit:1 %}
-  <meta content="{{ category }}" property="article:section" />
+  <meta property="article:section" content="{{ category }}" />
   {% endfor %} {% endif %} {% if page.tags %} {% for tag in page.tags %}
-  <meta content="{{ tag }}" property="article:tag" />
+  <meta property="article:tag" content="{{ tag }}" />
   {% endfor %} {% endif %}
 
   <!-- Twitter Card data -->
